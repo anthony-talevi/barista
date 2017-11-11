@@ -5,6 +5,14 @@ class Device::Gyro
     puts read_i2c(6, 0x1D)
   end
 
+  def sleep
+
+  end
+
+  def wake
+
+  end
+
   private
 
   def write_i2c(data)
