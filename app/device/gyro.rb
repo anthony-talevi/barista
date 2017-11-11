@@ -1,11 +1,8 @@
 class Device::Gyro
   include Beaglebone
-  
+
   def read
     puts read_i2c(6, 0x1D)
-  end
-
-  def write
   end
 
   private
